@@ -39,9 +39,9 @@ const darkOn = () => {
     dark.style.display = "none";
     aboutBody.style.backgroundColor = "black";
     aboutContent.style.color = "white";
-    navBar.style.backgroundColor = "white";
+    navBar.style.backgroundColor = "black";
     text.forEach(box => {
-        box.style.color = "black";
+        box.style.color = "white";
     })
     skills.style.backgroundColor = "black";
     skills.style.color = "white";
