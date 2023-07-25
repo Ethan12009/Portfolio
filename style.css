@@ -61,7 +61,16 @@ a {
     margin: 10rem 0;
 }
 #skills h2 {
+    margin: 0 auto;
+    width: 90%;
+    border-bottom: black solid 0.3rem;
     font-size: 4rem;
+    padding-bottom: 1rem;
+}
+#skills-child div {
+    width: 10%;
+    border-right: black solid 0.3rem;
+    border-left: black solid 0.3rem
 }
 #skills div h4 {
     font-size: 2rem;
@@ -69,4 +78,22 @@ a {
 #skills img {
     width: 5rem;
     height: 5rem;
+}
+
+#projects {
+    margin: 0 auto;
+    width: 90%;
+    height: 30rem;
+}
+#projects h2 {
+    padding-bottom: 1rem;
+    font-size: 4rem;
+    text-align: center;
+    border-bottom: black solid 0.3rem;
+}
+#projects ul li {
+    text-align: left;
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 1.5rem;
 }
