@@ -50,3 +50,23 @@ a {
     height: 59.9rem;
     display: flex;
 }
+
+#skills {
+    text-align: center;
+    margin: 10rem 0;
+}
+#skills-child {
+    display: flex;
+    justify-content: space-around;
+    margin: 10rem 0;
+}
+#skills h2 {
+    font-size: 3rem;
+}
+#skills div h4 {
+    font-size: 1.3rem;
+}
+#skills img {
+    width: 5rem;
+    height: 5rem;
+}
