@@ -1,6 +1,9 @@
 * {
-    box-sizing: border-box;
+    box-sizing: content-box;
     font-family: "Inter", sans-serif;
+}
+html {
+    margin: 0;
 }
 body {
     margin: 0;
@@ -53,7 +56,7 @@ a {
 
 #skills {
     text-align: center;
-    margin: 10rem 0;
+    margin: 7rem 0;
 }
 #skills-child {
     display: flex;
@@ -96,4 +99,13 @@ a {
     font-family: "Inter";
     font-weight: 900;
     font-size: 1.5rem;
+}
+#contact {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#contact ul img {
+    width: 2rem;
+    height: 2rem;
 }
