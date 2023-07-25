@@ -1,0 +1,18 @@
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#nav-list li {
+    list-style-type: none;
+    display: inline;
+    margin-right: 2rem;
+}
+li a {
+    text-decoration: none;
+}
+
+#nav-bar h3 {
+    margin-left: 2rem;
+    font-size: 1.6rem;
+}
