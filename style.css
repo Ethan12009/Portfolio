@@ -14,6 +14,20 @@ header {
     top: 0;
     width: 100%;
 }
+#nav-bar img {
+    width: 2rem;
+    height: 2rem;
+    margin: 0 auto;
+    position: absolute;
+    left: 50%;
+}
+#nav-bar img:hover {
+    cursor: pointer;
+}
+#light {
+    display: none;
+}
+
 #nav-bar {
     background-color: gray;
     display: flex;
@@ -39,7 +53,7 @@ a {
 #about {
     margin: 15rem auto;
     width: 50%;
-    color: white;
+    color: black;
 }
 #about h1 {
     text-align: left;
@@ -49,7 +63,7 @@ a {
     font-size: 1.5rem;
 }
 #about-background {
-    background-color: black;
+    background-color: white;
     height: 59.9rem;
     display: flex;
 }
