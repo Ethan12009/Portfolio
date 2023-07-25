@@ -8,6 +8,9 @@ let skillDiv = document.querySelectorAll("#skills-child div")
 let navBar = document.getElementById("nav-bar");
 let text = document.querySelectorAll(".Text")
 let HTML = document.getElementById("HTML")
+let projects = document.getElementById("projects")
+let projectHeader = document.querySelector("#projects > h2")
+let contact = document.getElementById("contact")
 
 const lightOn = () => {
     light.style.display = "none";
@@ -25,6 +28,11 @@ const lightOn = () => {
         box.style.borderRight = "black solid 0.3rem"
         box.style.borderLeft = "black solid 0.3rem"
     })
+    projects.parentElement.style.backgroundColor = "white";
+    projects.style.color = "black";
+    projectHeader.style.borderBottom = "black solid 0.3rem";
+    contact.style.backgroundColor = "white";
+    contact.style.color = "black";
 }
 const darkOn = () => {
     light.style.display = "block";
@@ -42,7 +50,11 @@ const darkOn = () => {
         box.style.borderRight = "white solid 0.3rem"
         box.style.borderLeft = "white solid 0.3rem"
     })
-    
+    projects.parentElement.style.backgroundColor = "black";
+    projects.style.color = "white";
+    projectHeader.style.borderBottom = "white solid 0.3rem";
+    contact.style.backgroundColor = "black";
+    contact.style.color = "white";
 }
 
 dark.onclick = darkOn;

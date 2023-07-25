@@ -96,13 +96,16 @@ a {
     width: 5rem;
     height: 5rem;
 }
-
+#projectholder {
+    display: flex;
+}
 #projects {
     margin: 0 auto;
     width: 90%;
     height: 30rem;
 }
 #projects h2 {
+   
     padding-bottom: 1rem;
     font-size: 4rem;
     text-align: center;
