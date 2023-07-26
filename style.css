@@ -99,6 +99,10 @@ a {
 #projectholder {
     display: flex;
 }
+#projectholder1:hover {
+    cursor: pointer;
+}
+
 #projects {
     margin: 0 auto;
     width: 90%;
@@ -125,4 +129,41 @@ a {
 #contact ul img {
     width: 2rem;
     height: 2rem;
+}
+
+@media only screen and (min-width:1024px) and (max-width:1600px) {
+    #skills div h4 {
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 1024px) {
+    #skills div h4 {
+        font-size: 1rem;
+    }
+    #skills-child div {
+        width: 15%;
+    }
+    #nav-bar img{
+        left: 35%;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width:768px) {
+    #nav-list li {
+        font-size: 0.9rem;
+    }
+    #nav-bar img{
+        display: none;
+    }
+    #about {
+        width: 70%;
+    }
+    #skills-child {
+        display: grid;
+        grid-template-columns: 40% 40%;
+        row-gap: 3rem;
+    }
+    #skills-child div {
+
+        width: 100%;
+    }
 }

@@ -11,6 +11,8 @@ let HTML = document.getElementById("HTML")
 let projects = document.getElementById("projects")
 let projectHeader = document.querySelector("#projects > h2")
 let contact = document.getElementById("contact")
+let expand = document.getElementById("projectExpand1")
+let projectHandler = document.getElementById("projectholder1")
 
 const lightOn = () => {
     light.style.display = "none";
@@ -56,6 +58,18 @@ const darkOn = () => {
     contact.style.backgroundColor = "black";
     contact.style.color = "white";
 }
+const clickExpand = () => {
+    if (expand.style.display === "none") {
+        expand.style.display = "block"
+    }
+    else  {
+        expand.style.display = "none"
+    }
+    
+}
 
+
+
+projectHandler.onclick = clickExpand;
 dark.onclick = darkOn;
 light.onclick = lightOn;
